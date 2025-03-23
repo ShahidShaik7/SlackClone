@@ -1,0 +1,49 @@
+.snackbar{
+    width: 100%;
+}
+.snackbar-inner{
+    width: 100%;
+    background-color: #00639F;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.snackbar-inner-div1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    gap: 5px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.snackbar-inner-div1-text1{
+    font-weight: bold;
+}
+.snackbar-inner-div1-letsgo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.snackbar-inner-div1-letsgo-text{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.snackbar-inner-div1-letsgo-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snackbar-inner-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+}
